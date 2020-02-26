@@ -27,9 +27,9 @@ import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
-import LandingPage from "views/examples/LandingPage.js";
-import HomePage from "views/examples/HomePage.js";
+import LoginPage from "views/Body/LoginPage.js";
+import LandingPage from "views/Body/LandingPage.js";
+import HomePage from "views/Body/HomePage.js";
 
 ReactDOM.render(
   <BrowserRouter>
