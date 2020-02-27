@@ -24,9 +24,7 @@ function HomePageHeader() {
   return (
     <>
       <div
-        className="homepage-header clear-filter homepage-header-small"
-        filter-color="blue"
-      >
+        className="homepage-header clear-filter homepage-header-small">
         <div
           className="homepage-header-image"
           style={{
