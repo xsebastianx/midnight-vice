@@ -41,7 +41,7 @@ function LoginPage() {
         <div
           className="homepage-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/login.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/newVice.jpg") + ")"
           }}
         ></div>
         <div className="content">
@@ -50,12 +50,7 @@ function LoginPage() {
               <Card className="card-login card-plain">
                 <Form action="" className="form" method="">
                   <CardHeader className="text-center">
-                    <div className="logo-container">
-                      <img
-                        alt="..."
-                        src={require("assets/img/now-logo.png")}
-                      ></img>
-                    </div>
+                    
                   </CardHeader>
                   <CardBody>
                     <InputGroup
@@ -70,7 +65,7 @@ function LoginPage() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
-                        placeholder="First Name..."
+                        placeholder="User Name..."
                         type="text"
                         onFocus={() => setFirstFocus(true)}
                         onBlur={() => setFirstFocus(false)}
@@ -84,11 +79,11 @@ function LoginPage() {
                     >
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>
-                          <i className="now-ui-icons text_caps-small"></i>
+                          <i className="now-ui-icons objects_key-25"></i>
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
-                        placeholder="Last Name..."
+                        placeholder="Password..."
                         type="text"
                         onFocus={() => setLastFocus(true)}
                         onBlur={() => setLastFocus(false)}
@@ -104,7 +99,7 @@ function LoginPage() {
                       onClick={e => e.preventDefault()}
                       size="lg"
                     >
-                      Get Started
+                      Sign In
                     </Button>
                     <div className="pull-left">
                       <h6>
