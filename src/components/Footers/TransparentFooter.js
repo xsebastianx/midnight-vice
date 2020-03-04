@@ -15,7 +15,7 @@ function TransparentFooter() {
                 href="https://www.creative-tim.com?ref=nukr-transparent-footer"
                 target="_blank"
               >
-                Creative Tim
+                
               </a>
             </li>
             <li>
@@ -42,14 +42,14 @@ function TransparentFooter() {
             href="https://www.invisionapp.com?ref=nukr-transparent-footer"
             target="_blank"
           >
-            Invision
+            University of Miami Web Developer Students
           </a>
-          . Coded by{" "}
+          . Liena, Sebastian, Joseph, Ramon, Franchesca
           <a
             href="https://www.creative-tim.com?ref=nukr-transparent-footer"
             target="_blank"
           >
-            Creative Tim
+            
           </a>
           .
         </div>
