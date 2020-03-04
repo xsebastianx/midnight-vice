@@ -123,6 +123,12 @@ function HomeNavbar() {
                 </NavLink>
               </NavItem>
               <NavItem>
+                
+                <NavLink to="/home-page" tag={Link}>
+                <i className="now-ui-icons shopping_shop"></i>Home
+                </NavLink>
+              </NavItem>
+              <NavItem>
               <UncontrolledDropdown nav>
                 <DropdownToggle
                   caret
