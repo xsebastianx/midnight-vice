@@ -45,9 +45,13 @@ function HomePage() {
             <h5 className="description">
               Dont settle for the boring fast food. We're here to help you discover the best food truck in town. 
             </h5>
+            <h3 className="title">Find Nearest Food Truck</h3>
+            <h5 className="description">
+               
+            </h5>
             <Row>
               <Col className="ml-auto mr-auto" md="6">
-                <h4 className="title text-center">Food Category</h4>
+                <h4 className="title text-center">Trending Food Trucks</h4>
                 <div className="nav-align-center">
                   <Nav
                     className="nav-pills-info nav-pills-just-icons"
@@ -131,24 +135,24 @@ function HomePage() {
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg6.jpg")}
+                          src={require("assets/img/cheeseBurgerBaby.jpg")}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg11.jpg")}
+                          src={require("assets/img/monsterBite.jpg")}
                         ></img>
                       </Col>
                       <Col md="6">
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg7.jpg")}
+                          src={require("assets/img/comelon.jpg")}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg8.jpg")}
+                          src={require("assets/img/peru.jpg")}
                         ></img>
                       </Col>
                     </Row>
