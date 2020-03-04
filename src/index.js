@@ -49,9 +49,11 @@ ReactDOM.render(
           path="/home-page"
           render={props => <HomePage {...props} />}
         />
-        <Route path="/login-page" render={props => <LoginPage {...props} />} />
-        <Redirect to="/index" />
-        <Redirect from="/" to="/index" />
+        <Route 
+          path="/login-page" 
+          render={props => <LoginPage {...props} />}
+        />
+
       </Switch>
     </Switch>
   </BrowserRouter>,

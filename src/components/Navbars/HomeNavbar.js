@@ -96,9 +96,6 @@ function HomeNavbar() {
             >
               
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
-            </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {
@@ -121,7 +118,7 @@ function HomeNavbar() {
             <Nav navbar>
               <NavItem>
                 
-                <NavLink to="/index" tag={Link}>
+                <NavLink to="/login-page" tag={Link}>
                 <i className="now-ui-icons users_circle-08"></i>Login
                 </NavLink>
               </NavItem>
@@ -130,7 +127,7 @@ function HomeNavbar() {
                 <DropdownToggle
                   caret
                   color="default"
-                  href="#pablo"
+                  href="login-page"
                   nav
                   onClick={e => e.preventDefault()}
                 >
@@ -138,7 +135,7 @@ function HomeNavbar() {
                   <p>Dark Mode</p>
                 </DropdownToggle>
                 <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
+                  <DropdownItem to="/login-page" tag={Link}>
                     <i className="now-ui-icons objects_spaceship mr-1"></i>
                     Activate
                   </DropdownItem>
