@@ -34,7 +34,7 @@ function HomePageHeader() {
         ></div>
         <Container>
           
-          <p>Hello</p>
+         
           
         </Container>
       </div>
