@@ -1,0 +1,46 @@
+
+    @media (prefers-color-scheme: dark) {
+        .section {
+            color: #ff6ec7!important;
+            background-color: #000!important;
+        }
+
+        .nav-pills .nav-item .nav-link  {
+            color: #ff6ec7!important;
+        }
+        .bg-info{
+            background-color: #ff6ec7!important;
+        }
+
+        .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
+            background-color: #ff6ec7!important;
+            color: black!important;
+        }
+        .description {
+            color: #ff6ec7!important;
+        }
+        .footer.footer-default {
+            background-color:#ff6ec7!important;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .section {
+            color: #000!important;
+            background-color: #fff!important;
+        }
+        .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
+            background-color: teal!important;
+            color: white!important;
+        }
+        .bg-info{
+            background-color: teal!important;
+        }
+        .footer.footer-default {
+            background-color: teal!important;
+        }
+    }
+
+    
+
+    

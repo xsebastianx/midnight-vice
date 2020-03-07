@@ -2605,7 +2605,7 @@ p {
   color: #f96332 !important; }
 
 .text-info {
-  color: #2CA8FF !important; }
+  color: #2CA8FF ; }
 
 .text-success {
   color: #18ce0f !important; }
@@ -3377,7 +3377,7 @@ Created using IcoMoon - icomoon.io
   background-color: #f96332 !important; }
 
 .bg-info {
-  background-color: #2CA8FF !important; }
+  background-color: #2CA8FF; }
 
 .bg-success {
   background-color: #18ce0f !important; }
