@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -14,15 +13,14 @@ import {
   InputGroupText,
   InputGroup,
   Container,
-  Col, 
-  NavLink
+  Col
 } from "reactstrap";
 
 // core components
 import HomeNavbar from "components/Navbars/HomeNavbar.js";
 import TransparentFooter from "components/Footers/TransparentFooter.js";
 
-function LoginPage() {
+function SignupPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
@@ -101,23 +99,20 @@ function LoginPage() {
                       onClick={e => e.preventDefault()}
                       size="lg"
                     >
-                      Sign In
+                      Sign Up!
                     </Button>
-                    <div className="pull-left">
+                    {/* <div className="pull-left">
                       <h6>
-                      <NavLink to="/signup-page" tag={Link}>
-                <i className="now-ui-icons users_circle-08"></i>Signup!
-                </NavLink>
                         <a
                           className="link"
-                          href="/signup-page"
+                          href="#pablo"
                           onClick={e => e.preventDefault()}
                         >
                           Create Account
                         </a>
                       </h6>
-                    </div>
-                    <div className="pull-right">
+                    </div> */}
+                    {/* <div className="pull-right">
                       <h6>
                         <a
                           className="link"
@@ -127,7 +122,7 @@ function LoginPage() {
                           Need Help?
                         </a>
                       </h6>
-                    </div>
+                    </div> */}
                   </CardFooter>
                 </Form>
               </Card>
@@ -140,4 +135,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default SignupPage;
