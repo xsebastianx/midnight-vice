@@ -49,8 +49,7 @@ function SignupPage() {
             <Col className="ml-auto mr-auto" md="4">
               <Card className="card-login card-plain">
                 <Form action="" className="form" method="">
-                  <CardHeader className="text-center">
-                    
+                  <CardHeader className="text-center">               
                   </CardHeader>
                   <CardBody>
                     <InputGroup
@@ -65,8 +64,30 @@ function SignupPage() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
+                        value="username"
+                        name="username"
                         placeholder="User Name..."
                         type="text"
+                        onFocus={() => setFirstFocus(true)}
+                        onBlur={() => setFirstFocus(false)}
+                      ></Input>
+                    </InputGroup>
+                    <InputGroup
+                      className={
+                        "no-border input-lg" +
+                        (firstFocus ? " input-group-focus" : "")
+                      }
+                    >
+                      <InputGroupAddon addonType="prepend">
+                        <InputGroupText>
+                          <i className="now-ui-icons ui-1_email-85"></i>
+                        </InputGroupText>
+                      </InputGroupAddon>
+                      <Input
+                        value="email"
+                        name="email"
+                        placeholder="Email..."
+                        type="email"
                         onFocus={() => setFirstFocus(true)}
                         onBlur={() => setFirstFocus(false)}
                       ></Input>
@@ -83,6 +104,8 @@ function SignupPage() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
+                        value="password"
+                        name="password"
                         placeholder="Password..."
                         type="text"
                         onFocus={() => setLastFocus(true)}
@@ -99,7 +122,7 @@ function SignupPage() {
                       onClick={e => e.preventDefault()}
                       size="lg"
                     >
-                      Sign Up!
+                      Create Account!
                     </Button>
                     {/* <div className="pull-left">
                       <h6>
