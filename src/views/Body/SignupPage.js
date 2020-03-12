@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -13,7 +14,8 @@ import {
   InputGroupText,
   InputGroup,
   Container,
-  Col
+  Col,
+  NavLink
 } from "reactstrap";
 
 // core components
@@ -24,13 +26,13 @@ function SignupPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
-    document.body.classList.add("login-page");
+    document.body.classList.add("signup-page");
     document.body.classList.add("sidebar-collapse");
     document.documentElement.classList.remove("nav-open");
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;
     return function cleanup() {
-      document.body.classList.remove("login-page");
+      document.body.classList.remove("signup-page");
       document.body.classList.remove("sidebar-collapse");
     };
   });
@@ -124,8 +126,11 @@ function SignupPage() {
                     >
                       Create Account!
                     </Button>
-                    {/* <div className="pull-left">
+                    <div className="pull-left">
                       <h6>
+                      <NavLink to="/login-page" tag={Link}>
+                <i className="now-ui-icons users_circle-08"></i>Login!
+                </NavLink>
                         <a
                           className="link"
                           href="#pablo"
@@ -134,8 +139,8 @@ function SignupPage() {
                           Create Account
                         </a>
                       </h6>
-                    </div> */}
-                    {/* <div className="pull-right">
+                    </div>
+                    <div className="pull-right">
                       <h6>
                         <a
                           className="link"
@@ -145,7 +150,7 @@ function SignupPage() {
                           Need Help?
                         </a>
                       </h6>
-                    </div> */}
+                    </div>
                   </CardFooter>
                 </Form>
               </Card>

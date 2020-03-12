@@ -67,6 +67,8 @@ function LoginPage() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
+                        // value="username"
+                        // name="username"
                         placeholder="User Name..."
                         type="text"
                         onFocus={() => setFirstFocus(true)}
@@ -85,6 +87,8 @@ function LoginPage() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
+                        // value="password"
+                        // name="password"
                         placeholder="Password..."
                         type="text"
                         onFocus={() => setLastFocus(true)}
